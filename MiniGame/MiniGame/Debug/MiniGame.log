@@ -1,4 +1,20 @@
 ﻿  Game.cpp
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\Game.cpp(45,84): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\Game.cpp(45,53): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\Game.cpp(74,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\Game.cpp(90,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\Game.cpp(95,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\Game.cpp(126,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\Game.cpp(173,20): warning C4018: '<': signed/unsigned mismatch
   MiniGame.cpp
+C:\Users\ASUS\MiniGameRepo\MiniGame\MiniGame\MiniGame.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
   MiniGame.vcxproj -> C:\Users\ASUS\MiniGameRepo\MiniGame\Debug\MiniGame.exe

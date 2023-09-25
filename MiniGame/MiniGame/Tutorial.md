@@ -18,7 +18,7 @@
 - SFML > bin 전체 파일 => - MiniGame - MiniGame
 
 # VS 2022 환경 설정
-
+- VS 2022 에디터 상간 툴바 > Solution Platfrom > X86
 - Solution Explorer > Drop Down Menu > Properies
 - 상단 공통 영역
 	- Configuration > All Configuration
@@ -26,9 +26,11 @@
 - C/C++ > General > Aditional include Directories
 	- SFML에서 복사해온 파일/폴더가 있는 위치를 선택 
 	- $(SolutionDir) : 현재 프로젝트 폴더 경로
+	- 최종 입력 형태 : $(SolutionDir)/External/include
 	
 - Linker > Genaral > Additional Library Directories
 	- SFML에서 복사해온 파일/폴더가 있는 위치를 선택
+	- - 최종 입력 형태 : $(SolutionDir)/External/lib
 	
 - Linker > Input > additional Dependancies
 	- Configuration > Release
@@ -65,5 +67,14 @@
 
 ## Event Handing
 
-- Event Delegate
-- Event Listening
+- Event Delegate : 여러게의 이벤트에 대응
+- Event Listening : 이벤트 감지
+- Event Handle : 감지된 이벤트에 대해서 적절한 동작
+
+# Game Loop
+
+# MiniGame 프로젝트에 구현한 Game 클래스
+
+- 게임을 전반적으로 Control 하는 클래스
+- Enemy 생성
+- Player 생성		 

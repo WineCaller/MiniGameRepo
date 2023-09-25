@@ -1,18 +1,23 @@
 
 #include <iostream>
-#include"Game.h"
+#include <ctime>
+#include "Game.h"
+//#include "SmpleWindow.h"
 
 int main()
 {
-	Game Mini;
+	srand(time(NULL));
 
-	while (Mini.IsCreate())
-	{
-		//Mini.ExecEvent();
-		
-		//Window.clear(sf::Color(255, 0, 0, 255));
-
-		//Window.display();
-	}
+	Game MiniGame;
 	
+	// Game Loop
+	while (MiniGame.Running())
+	{
+		MiniGame.EventHandler();
+		
+		MiniGame.Update();
+		
+		MiniGame.Render();
+	}
 }
+
